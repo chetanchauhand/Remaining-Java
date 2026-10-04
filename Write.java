@@ -1,11 +1,12 @@
-// write data in file
+// write,append data in file
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 public class Write {
     public static void main(String[] args) throws IOException {
         FileWriter w = new FileWriter("st.txt");
-        w.write("Hello Chetan");
+        // w.write("Hello Chetan");
+        w.append("Hi mrs");
         w.close();
 
         System.out.println("Data Written");
