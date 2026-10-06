@@ -10,5 +10,8 @@ public class Pract3 {
         stack.push(13);
         System.out.println(stack);
 
+        stack.pop();
+        System.out.println(stack);
+
     }
 }
