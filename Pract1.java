@@ -1,3 +1,4 @@
+//Add first and last element in list.
 import java.util.LinkedList;
 
 public class Pract1 {
@@ -6,6 +7,8 @@ public class Pract1 {
         list.add("Java");
         list.addFirst("C");
         list.addLast("Python");
+    // Remove element from list
+        list.remove("Java");
         System.out.println(list);
     }
 }
