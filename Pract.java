@@ -8,6 +8,8 @@ public class Pract {
             list.add("C");
             list.add("C++");
             list.add("Java");
-            System.out.println(list);
+            System.out.println(list
+                
+            );
     }
 }
