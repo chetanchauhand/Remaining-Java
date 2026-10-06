@@ -11,5 +11,7 @@ public class Map {
         map.put(103 ," Amit");
 
         System.out.print(map);
+        //Get value
+        System.out.println(map.get(101));
     }
 }
