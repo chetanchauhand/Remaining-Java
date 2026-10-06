@@ -12,6 +12,8 @@ public class Map {
 
         System.out.print(map);
         //Get value
-        System.out.println(map.get(101));
+        // System.out.println(map.get(101));
+        //Remove value from map
+        System.out.println(map.remove(101));
     }
 }
