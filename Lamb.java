@@ -1,3 +1,4 @@
+//Simple lambda
 interface A{
     void show();
 }
