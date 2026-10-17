@@ -18,6 +18,5 @@ public class Dif {
         data<Integer> a = new data<>(10);
         data<String> b = new data<>("Hello");
         a.show();
-        b.show();
     }
 }
